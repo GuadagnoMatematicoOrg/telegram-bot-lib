@@ -1,0 +1,24 @@
+{
+    "name": "lucadevelop/telegram-bot-lib",
+    "description": "Another Telegram bot API wrapper written with PHP",
+    "type": "library",
+    "require": {
+		"php": ">=7.2",
+        "amphp/http-client": "^4.1"
+    },
+	"autoload": {
+		"psr-4": {
+		"lucadevelop\\TelegramBotLib\\": "src"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/lucadevelop/telegram-bot-lib/issues",
+		"source": "https://github.com/lucadevelop/telegram-bot-lib"
+	},
+    "authors": [
+        {
+            "name": "LucaDevelop",
+            "email": "lsirri@gmail.com"
+        }
+    ]
+}
